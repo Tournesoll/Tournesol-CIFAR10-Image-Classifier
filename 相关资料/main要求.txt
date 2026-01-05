@@ -1,0 +1,14 @@
+仔细阅读《S100304720-机器学习课程设计-实验指导书.pdf》，查看课程设计要求、提交内容、考核方法。查看《cifar10.pdf》中具体设计任务。
+
+参照《机器学习》课程中“Chapter4_1_开发环境搭建.pdf ”的步骤，每个人在自己的笔记本电脑中建立课程设计所需的conda虚拟环境。另外，在虚拟环境中增加安装streamlit、pytorch库等。答辩时需用自己的电脑进行演示、答辩。
+
+以《cifar10.ipynb》为蓝本，着手完成本次课设，并将最优模型部署为 基于streamlit 的一个 web-demo（自行参考streamlit文档以及《(streamlit示例)stevensmiley1989.medium.com-Train  Deploy YOLOv7 to Streamlit.pdf》）。比如demo文件为test_streamlit.py.  执行“ streamlit run test_streamlit.py” 后Demo示例
+image.png
+
+（下载 cifar10.ipynb.txt后去除后缀名 .txt 后即可得到  cifar10.ipynb）
+另外：
+1. 程序中的随机种子用自己的学号代表的整数，保证程序正确、可复现。将 cifar10.ipynb 改成 cifar10_学号.ipynb 
+2. 严格要求按照 cifar10_学号.ipynb 中的要求作答，作答过程可以采用 github 进行进行版本管理，以备查。
+3. 每日按要求在雨课堂上传“每日日志”的word文档（文件名：“学号-姓名-年-月-日-日志.docx”），要求每日记录：课设进展、遇到的问题、解决方案并配上相应截图（全屏）。
+4. 在设计报告中增加一项“每日日志”，将每天上传的每日日志放在此项中。
+5. 在设计报告中增加一项： “AI使用情况说明”，说明使用的何种AI，以何种形式使用，解决了什么问题。
